@@ -97,7 +97,7 @@ export default function Home() {
     <div className="newsBody">
       <Container>
       <center><h1>Latest News</h1></center>
-      <Row style={{ textAlign: 'center' }}>
+      <Row>
         <Col md={{ span: 6, offset: 4 }} >
           <Card className="cardBackground" id="newsCard">
             <Card.Img variant="top" src="/images/sponsorship.png" />

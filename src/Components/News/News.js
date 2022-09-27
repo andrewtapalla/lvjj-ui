@@ -10,7 +10,6 @@ export default function News() {
     return (
     <Container>
     <br /><br />
-    <div style={{ textAlign: 'center' }}>
     <h1>Team News</h1>
     <br /><br />
       <Row>
@@ -28,8 +27,8 @@ export default function News() {
           <Card className="cardBackground" id="newsCard">
             <Card.Img variant="top" src="./images/promoted.jpg" />
             <Card.Body>
-              <Card.Title>It's promotion night at LVJJ</Card.Title>
-              <Card.Text id="newsText">Say congratulations to our newly promoted!</Card.Text>
+              <Card.Title>It's promotion night at LVJJ!</Card.Title>
+              <Card.Text id="newsText">Say congratulations to our newly promoted students</Card.Text>
               </Card.Body>
               <Card.Footer className="text-muted">Updated June 8, 2022</Card.Footer>
           </Card>  
@@ -40,7 +39,6 @@ export default function News() {
     <br />
     <br />
     <br />
-    </div>
     </Container>
     )
 }
