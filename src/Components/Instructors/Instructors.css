@@ -1,0 +1,56 @@
+#zamoraContainer {
+    background-color: #1B1B1B;
+    border-radius: 16px;
+    margin-top: 35px;
+}
+
+#zamoraPhoto {
+    border-radius: 16px;
+}
+
+
+#bruceContainer {
+    background-color: #1B1B1B;
+    border-radius: 16px;
+}
+
+.bruceBody {
+    background-color: #000000;
+}
+
+#brucePhoto {
+    border-radius: 16px;
+}
+
+@media screen and (max-width: 480px) {
+    #colTest {
+        width: 100%;
+        height: 100%;
+    }
+
+    #resumeBody {
+        text-align: center !important;
+        width: 100%;
+        display: none;
+    }
+
+    #zamoraPhoto {
+        height: 100%;
+        width: 100%;
+    }
+
+    .titlesHeader {
+        font-size: 18px;
+        display: none;
+    }
+
+    .titles {
+        font-size: 16px;
+        display: none;
+    }
+
+    .instructorDescription {
+        font-size: 18px;
+    }
+    
+}
