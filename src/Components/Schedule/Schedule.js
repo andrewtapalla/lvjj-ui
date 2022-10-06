@@ -6,9 +6,12 @@ import Container from 'react-bootstrap/Container'
 export default function Schedule() {
     return (
     <div style={{ textAlign: 'center' }}>
+        <br /><br />
+        <h1>Schedule</h1>
+        <br /><br />
         <div className="scheduleBody">
         <Container>
-            <h1>Schedule</h1>
+            {/* <h1>Schedule</h1> */}
             <Table striped bordered hover responsive>
                 <thead>
                     <tr>

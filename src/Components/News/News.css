@@ -9,3 +9,11 @@ h1 {
 .text-muted {
     text-align: center;
 }
+
+#news-card {
+    max-width: 425px;
+}
+
+#card-img {
+    width: 425px;
+}

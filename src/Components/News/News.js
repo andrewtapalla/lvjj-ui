@@ -24,7 +24,7 @@ export default function News() {
           </Card>  
         </Col>
         <Col>
-          <Card className="cardBackground" id="newsCard">
+          <Card className="cardBackground" id="news-card">
             <Card.Img variant="top" src="./images/promoted.jpg" />
             <Card.Body>
               <Card.Title>It's promotion night at LVJJ!</Card.Title>

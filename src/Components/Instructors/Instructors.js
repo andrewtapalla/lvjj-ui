@@ -7,7 +7,10 @@ import Col from 'react-bootstrap/Col'
 export default function Instructors() {
     return (
     <div style={{ textAlign: 'center' }}>
+        <br /><br />
+        <h1>Instructors</h1>
         <Container id="zamoraContainer">
+            <br />
         <h1>Cresencio Zamora</h1>
         <h5>Founder & Head Professor</h5>
         <br />

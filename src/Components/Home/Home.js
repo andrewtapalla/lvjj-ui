@@ -52,9 +52,10 @@ export default function Home() {
   </Carousel.Item>
 </Carousel>
 
-<br />
-<Container>
-    <Row className="m-auto align-self-center">
+<br /><br /><br />
+  <div className="container-test">
+    <Container>
+    <Row className="m-auto align-self-center" id="mid-container">
       <Col>
         <Card className="cardBackground" id="aboutCard" fluid>
           <Card.Img variant="top" src="/images/ModernLVJJ.png" height="245" />
@@ -93,21 +94,34 @@ export default function Home() {
         </Col>
       </Row>
       </Container>
+  </div>
 <br /><br />
     <div className="newsBody">
       <Container>
       <center><h1>Latest News</h1></center>
+      <br /><br />
       <Row>
-        <Col md={{ span: 6, offset: 4 }} >
+        <Col>
           <Card className="cardBackground" id="newsCard">
             <Card.Img variant="top" src="/images/sponsorship.png" />
             <Card.Body>
-              <Card.Title>Steve Dimopoulos sends 10 students to Connecticut Seminar</Card.Title>
-              <Button variant="primary" href="/News">Read More</Button>
+              <Card.Title>Steve Dimopoulos sends 10 students to Connecticut Seminar</Card.Title><br />
+              <center><Button variant="primary" href="/News">Read More</Button></center><br />
               </Card.Body>
               <Card.Footer className="text-muted">Updated March 4, 2022</Card.Footer>
           </Card>  
         </Col>
+        <Col>
+        <Card className="cardBackground" id="news-card">
+            <Card.Img variant="top" src="./images/promoted.jpg" id="card-img"/>
+            <Card.Body>
+              <Card.Title>It's promotion night at LVJJ!</Card.Title>
+              <Card.Text id="newsText">Say congratulations to our newly promoted students</Card.Text>
+              </Card.Body>
+              <Card.Footer className="text-muted">Updated June 8, 2022</Card.Footer>
+          </Card>
+        </Col>
+        <Col></Col>
       </Row>
       </Container>
     <br />
