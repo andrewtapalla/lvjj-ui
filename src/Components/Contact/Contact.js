@@ -16,7 +16,7 @@ export default function Contact() {
         const sendEmail= (e) => {
         e.preventDefault();
 
-        emailjs.sendForm('service_kpvgg81', 'template_rhyfj1r', form.current, 'nbtV07kNcpY0_wX9Z')
+        emailjs.sendForm('service_u3shsal', 'template_j1ylvjj', form.current, 'B7k1S8XRLntPunrC1')
           .then((result) => {
               console.log(result.text);
           }, (error) => {
@@ -33,28 +33,28 @@ export default function Contact() {
         <br /><br /><br /><br />
         <Container>
         <form ref={form} onSubmit={sendEmail}>
-        <Row className="mb-3">
-            <Col>
-            <label for="firstName">First Name*</label>
-            <input type="text" name="firstName" className="firstNameBox" />
-            </Col>
-            <Col>
-            <label for="lastName">Last Name</label>
-            <input type="text" name="firstName" className="lastNameBox" />
-            </Col>
-        </Row>
-        <Row className="mb-3">
-            <label for="email">Email</label>
-            <input type="email" name="email" className="infoBox" />
-        </Row>
-        <Row className="mb-3">
-            <label for="phonenumber">Phone*</label>
-            <input type="phone" name="number" className="infoBox" />
-        </Row>
             <Row className="mb-3">
-            <label for="message">Message</label>
-            <textarea name="message" className="infoBox" />
-        </Row>
+                <Col id="test">
+                    <label for="firstName">First Name*</label>
+                    <input type="text" name="firstName" className="firstNameBox" />
+                </Col>
+                <Col id="">
+                    <label for="lastName">Last Name</label>
+                    <input type="text" name="firstName" className="lastNameBox" />
+                </Col>
+            </Row>
+            <Row className="mb-3">
+                <label for="email">Email</label>
+                <input type="email" name="email" className="infoBox" />
+            </Row>
+            <Row className="mb-3">
+                <label for="phonenumber">Phone*</label>
+                <input type="phone" name="number" className="infoBox" />
+            </Row>
+            <Row className="mb-3">
+                <label for="message">Message</label>
+                <textarea name="message" className="infoBox" />
+            </Row>
             <input type="submit" value="Send" className="contactBtn" />
         </form>
         </Container>

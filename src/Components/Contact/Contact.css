@@ -2,7 +2,7 @@
     border-radius: 16px;
     width: 100%;
     padding: 9px; 
-    display: block;
+    display: relative;
     border: 1px solid;
 }
 
@@ -18,3 +18,10 @@
     border-radius: 8px;
     text-align: center;
 }
+
+#test {
+    padding: 0;
+    padding-right: 85px;
+    width: 75%;
+}
+
